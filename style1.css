@@ -1,0 +1,72 @@
+/* Centering the main section */
+.signin-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: #f4f4f4;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;        /* Makes it the same color as the h1 */
+  font-weight: inherit;  /* Keeps the same weight */
+  font-size: inherit;    /* Keeps the same size */
+}
+
+/* Card styling */
+.signin-card {
+  background: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.signin-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Inputs */
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Checkbox */
+.checkbox {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Button */
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #00b33f;
+}
